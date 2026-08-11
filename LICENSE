@@ -1,21 +1,57 @@
-MIT License
+# Core dependencies
+numpy==1.23.0
+scipy==1.13.1
+scikit-learn==1.2.2
+hdbscan==0.8.33
+open3d==0.19.0
+matplotlib==3.6.1
+pandas==1.5.3
+pyyaml==6.0.3
+tqdm==4.67.3
+pillow==9.2.0
+trimesh==4.12.2
 
-Copyright (c) 2026 790260957-netizen
+# Deep Learning (PyTorch 2.7.1 + CUDA 11.8)
+# Install with: pip install torch==2.7.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+triton==3.3.1
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# JAX
+jax==0.4.30
+jaxlib==0.4.30
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+# TensorFlow (for waymo dataset)
+tensorboard==2.12.3
+tensorboard-data-server==0.7.2
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+# Point cloud
+pointnet2==3.0.0
+pyquaternion==0.9.9
+
+# Visualization
+plotly==5.13.1
+imageio==2.37.3
+visu3d==1.5.1
+
+# Data processing
+dask==2023.3.1
+pyarrow==10.0.0
+h5py==3.14.0
+
+# Google / Waymo
+protobuf==4.25.9
+waymo-open-dataset-tf-2-12-0==1.6.5
+absl-py==1.4.0
+google-auth==2.16.2
+google-auth-oauthlib==1.0.0
+
+# Utilities
+einops==0.8.2
+joblib==1.5.3
+networkx==3.4.2
+configargparse==1.7.5
+omegaconf==1.4.1
+hydra-core==0.11.3
+rich==15.0.0
+tqdm==4.67.3
