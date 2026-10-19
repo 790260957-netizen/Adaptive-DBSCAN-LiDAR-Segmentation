@@ -7,8 +7,8 @@ An Adaptive Density Unsupervised Point Cloud Instance Segmentation Framework Bas
 | Item | Details |
 |------|---------|
 | Title | An Adaptive Density Unsupervised Point Cloud Instance Segmentation Framework Based on Improved DBSCAN in Autonomous Driving Scenarios |
-| Authors | Yani Zhang(Sole First Author),Danni Hao(Corresponding Author), Kai Fan |
-| Journal | Applied Intelligence |
+| Authors | Yani Zhang(First Author),Danni Hao(Corresponding Author), Kai Fan（Second Author) |
+| Journal |The Journal of Supercomputing |
 | Status |  Under Review |
 | Dataset | [SemanticKITTI](http://www.semantic-kitti.org/) |
 
