@@ -1,4 +1,4 @@
-An Adaptive Density Unsupervised Point Cloud Instance Segmentation Framework Based on Improved DBSCAN in Autonomous Driving Scenarios
+An Unsupervised Adaptive-Density Point Cloud Instance Segmentation Framework Based on Improved DBSCAN in Autonomous Driving Scenarios
 
 ---
 
